@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.adsddm.battery" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Bateria</name>
+    <description>Teste de bateria simples para testar PhoneGap para ADS-DDM</description>
+    <author email="stc1806@yahoo.com.br" href="http://cordova.io">Sandro</author>
+    <content src="index.html" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+    <preference name="android-minSdkVersion" value="16" />
+    <gap:platform name="android" />
+	<icon src="appbattery.png" />
+	<gap:splash src="splashbattery.png" />
+</widget>
