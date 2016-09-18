@@ -9,6 +9,6 @@
     <preference name="permissions" value="none" />
     <preference name="android-minSdkVersion" value="16" />
     <gap:platform name="android" />
-	<icon src="appbattery.png" />
-	<gap:splash src="splashbattery.png" />
+	<icon src="img/appbattery.png" />
+	<gap:splash src="img/splashbattery.png" />
 </widget>
