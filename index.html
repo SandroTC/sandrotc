@@ -17,11 +17,17 @@
 			        alert(battery.level * 100 + '%');
 			    });
 		    }
-    }
+	}
+	function sair() {
+		navigator.app.exitApp();
+	}
 </script>
 </head>
 <body>
-<h1>Battery Test for ADS-DDM</h1>
-<input type="button" class="btn btn-info" onclick="bateria();" value ="View %"/>
+	<h1>Battery Test for ADS-DDM</h1>
+	<input type="button" class="btn btn-info" onclick="bateria();" value ="View %"/>
+	<input type="button" class="btn btn-success" onclick="sair();" value ="Exit"/>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
